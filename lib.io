@@ -5,4 +5,7 @@ OpenStruct := Library Specification clone do(
   setRepository("http://github.com/krainboltgreene/ostruct.io/")
   setDocumentation("http://krainboltgreene.github.com/ostruct.io/documentation/")
   setChangelog("http://krainboltgreene.github.com/ostruct.io/changelog/")
+  setDependencies(list(
+    "krainboltgreene/io-snippets"
+  ))
 )
